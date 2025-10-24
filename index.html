@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title data-lang-key="pageTitle">Escaparate de Cadenas de Pensamiento</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="language-switcher">
+            <button id="lang-es">Español</button>
+            <button id="lang-en">English</button>
+            <button id="lang-zh">繁體中文</button>
+        </nav>
+        
+        <h1 data-lang-key="mainTitle">Escaparate de Cadenas de Pensamiento</h1>
+        <p data-lang-key="subtitle">Un recurso gratuito para aprender Latín, Griego y Chino Clásico.</p>
+    </header>
+
+    <main>
+        <div class="filters">
+            <button id="filter-all" class="active" data-lang-key="filterAll">Todos</button>
+            <button id="filter-latin" data-lang-key="filterLatin">Latín</button>
+            <button id="filter-greek" data-lang-key="filterGreek">Griego</button>
+            <button id="filter-chinese" data-lang-key="filterChinese">Chino Clásico</button>
+        </div>
+
+        <section id="cot-showcase-container">
+            </section>
+    </main>
+
+    <div id="cot-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h2 id="modal-title"></h2>
+            
+            <h3 data-lang-key="modalPrompt">Prompt Original:</h3>
+            <pre id="modal-prompt"></pre>
+            
+            <h3 data-lang-key="modalExplanation">Explicación de la Cadena:</h3>
+            <div id="modal-explanation"></div>
+            
+            <h3 data-lang-key="modalCoT">Cadena de Pensamiento (CoT):</h3>
+            <div id="modal-cot-steps"></div>
+        </div>
+    </div>
+
+    <script src="./data/ui-text.js" defer></script>
+    <script src="./data/cots-latin.js" defer></script>
+    <script src="./data/cots-greek.js" defer></script>
+    <script src="./data/cots-chinese.js" defer></script>
+    <script src="./js/app.js" defer></script>
+
+</body>
+</html>
