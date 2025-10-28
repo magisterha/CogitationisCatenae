@@ -1,0 +1,29 @@
+{
+    "id": "latin-001",
+    "category": "latin",
+    "title": {
+        "es": "Análisis de 'Amo, Amas, Amat'",
+        "en": "Analysis of 'Amo, Amas, Amat'",
+        "zh": "「Amo, Amas, Amat」分析"
+    },
+    "description": {
+        "es": "Una CoT básica para entender la primera conjugación en presente de indicativo.",
+        "en": "A basic CoT to understand the first conjugation in the present indicative.",
+        "zh": "理解第一人稱現在時態變位法的基本思維鏈。"
+    },
+    "prompt": {
+        "es": "Actúa como un profesor de latín. Descompón la conjugación 'amo, amas, amat' para un estudiante principiante, explicando la raíz, la vocal temática y la desinencia personal.",
+        "en": "Act as a Latin teacher. Break down the conjugation 'amo, amas, amat' for a beginner student, explaining the root, thematic vowel, and personal ending.",
+        "zh": "扮演拉丁語老師。為初學者分解動詞變位「amo, amas, amat」，解釋詞根、主題元音和人稱結尾。"
+    },
+    "explanation": {
+        "es": "Esta CoT está diseñada para que la IA adopte un rol de 'profesor' y estructure la información de lo general (el verbo) a lo particular (sus componentes). Es fundamental para la gramática.",
+        "en": "This CoT is designed for the AI to adopt a 'teacher' role and structure information from the general (the verb) to the particular (its components). It is fundamental for grammar.",
+        "zh": "此思維鏈旨在讓 AI 扮演「老師」角色，並將資訊從一般（動詞）建構到特定（其組成部分）。這是語法的基礎。"
+    },
+    "cot_steps": {
+        "es": "\n                1.  **Objetivo:** Explicar 'amo, amas, amat'.\n                2.  **Identificar Verbo Base:** 'amare' (amar), 1ª conjugación.\n                3.  **Identificar Raíz:** Quitar '-are' -> 'am-'.\n                4.  **Identificar Vocal Temática:** 'a'.\n                5.  **Identificar Desinencias Personales (Presente):** -o (1ª p.), -s (2ª p.), -t (3ª p.).\n                6.  **Construir 1ª Persona:** Raíz (am) + Vocal (a) + Desinencia (o) -> 'amo' (la 'a' se contrae).\n                7.  **Construir 2ª Persona:** Raíz (am) + Vocal (a) + Desinencia (s) -> 'amas'.\n                8.  **Construir 3ª Persona:** Raíz (am) + Vocal (a) + Desinencia (t) -> 'amat'.\n                9.  **Resumir:** Presentar esto de forma clara y pedagógica.",
+        "en": "\n                1.  **Objective:** Explain 'amo, amas, amat'.\n                2.  **Identify Base Verb:** 'amare' (to love), 1st conjugation.\n                3.  **Identify Root:** Remove '-are' -> 'am-'.\n                4.  **Identify Thematic Vowel:** 'a'.\n                5.  **Identify Personal Endings (Present):** -o (1st p.), -s (2nd p.), -t (3rd p.).\n                6.  **Build 1st Person:** Root (am) + Vowel (a) + Ending (o) -> 'amo' (the 'a' contracts).\n                7.  **Build 2nd Person:** Root (am) + Vowel (a) + Ending (s) -> 'amas'.\n                8.  **Build 3rd Person:** Root (am) + Vowel (a) + Ending (t) -> 'amat'.\n                9.  **Summarize:** Present this clearly and pedagogically.",
+        "zh": "\n                1.  **目標：** 解釋 'amo, amas, amat'。\n                2.  **識別基本動詞：** 'amare' (愛)，第一變位法。\n                3.  **識別詞根：** 去掉 '-are' -> 'am-'。\n                4.  **識別主題元音：** 'a'。\n                5.  **識別人稱結尾（現在時）：** -o (第一人稱), -s (第二人稱), -t (第三人稱)。\n                6.  **建構第一人稱：** 詞根 (am) + 元音 (a) + 結尾 (o) -> 'amo' ('a' 縮短了)。\n                7.  **建構第二人稱：** 詞根 (am) + 元音 (a) + 結尾 (s) -> 'amas'。\n                8.  **建構第三人稱：** 詞根 (am) + 元音 (a) + 結尾 (t) -> 'amat'。\n                9.  **總結：** 清晰且有條理地呈現這一點。"
+    }
+}
