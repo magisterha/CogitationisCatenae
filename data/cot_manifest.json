@@ -1,6 +1,7 @@
 {
   "cots": [
     "./data/cots/latin-001.json",
-    "./data/cots/latin-002.json"
+    "./data/cots/latin-002.json",
+    "./data/cots/latin-003.json"
   ]
 }
